@@ -1,0 +1,111 @@
+body {
+margin: 0;
+padding: 20px;
+font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 50%;
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+color: navy;
+text-transform: uppercase;
+text-align: center;
+}
+
+/* Existing Styles */
+
+#about-me {
+background-color: lightgray;
+border-radius: 5px;
+margin-bottom: 25px;
+text-align: center;
+}
+
+
+#about-me p {
+color: darkslategrey;
+}
+
+/* Existing Styles */
+
+
+#email-input {
+padding: 10px;
+border-radius: 5px;
+width: 40%;
+}
+
+#subscribe-button {
+padding: 10px;
+border-radius: 5px;
+}
+
+
+#subscribe-button {
+background-color: navy;
+color: white;
+}
+
+/* Existing Styles */
+
+
+#blog-posts {
+border-collapse: collapse;
+}
+
+
+#blog-posts th {
+background-color: navy;
+color: white;
+padding: 5px 5px 5px 10px;
+}
+
+
+#blog-posts td {
+border: 1px solid black;
+padding: 5px 5px 5px 10px;
+}
+
+
+#favorite-blogs {
+list-style-type: none;
+margin-top: 25;
+padding: 5px 5px 5px 10px;
+border: 1px solid;
+border-radius: 0px 0px 5px 5px;
+}
+
+
+#favorite-blogs a {
+color: navy;
+text-decoration: none;
+}
+
+
+#favorite-blogs a:hover {
+color: skyblue;
+}
+
+/* Styles for tablets and larger screens */
+@media screen and (min-width: 768px) {
+.column {
+width: 50%;
+}
+}
+
+
+/* Styles for desktops and larger screens */
+@media screen and (min-width: 992px) {
+.column {
+width: 33.33%;
+}
+}
